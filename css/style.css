@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Candal|Hind|Merriweather+Sans|Montserrat|Open+Sans|Oxygen|Quattrocento+Sans|Ubuntu');
+
+h1,h2,h3,h4,h5,a,p,label,input[type='submit'],input[type='reset']{
+	font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	width: 1200px;
+	margin: auto;
+	background-color: #c8c8c8;
+}
+div#login{
+	padding: 20px;
+	border: 3px solid black;
+	border-radius: 4px;
+	display: block;
+	width: 300px;
+	margin: 10px auto;
+}
+#login form{
+	text-align: right;
+	line-height: 30px;
+}
+#login form label, #login form input, #login form a{
+	margin-right: 15px;
+}
+#login form a{
+	margin-right: 20px;		
+	font-size: 14px;
+}
+#login form input:last-of-type{
+	margin-right: 5px;
+}
+#login #avatar{
+	display: block;
+	margin: 10px auto;
+	border-radius: 3px;
+	border:3px solid black;
+}
+h1{
+	text-align: center;
+	margin: 5px;
+}
+div#msg{
+	padding: 20px;
+	border: 3px solid black;
+	border-radius: 4px;
+	display: inline-block;
+	width: 400px;
+	margin-left: 150px;
+	margin-top: 20px;
+}
+
+div#board{
+	padding: 20px;
+	border: 3px solid black;
+	border-radius: 4px;
+	display: inline-block;
+	width: 35%;
+	margin-right: 10%;
+	vertical-align: top;
+	margin-top: 20px;
+	height: 600px;
+}
+
+#msg form div{
+	text-align: right;
+	padding-right: 30px;
+}
+
+input[type='submit']:not(#rSubmit), a{
+	background-color: #78847A;
+	color:white;
+	border-color: transparent;
+	padding: 1px 6px;
+	text-decoration: none;
+	cursor: copy;
+	border-radius: 2px;
+}
+a{
+	padding: 2px 6px;
+}
+.msg img{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+}
+
+.msg h4{
+	font-weight: bold;
+	display: inline-block;
+}
+
+.msg p{
+	font-style: italic;
+	display: inline-block;
+}
